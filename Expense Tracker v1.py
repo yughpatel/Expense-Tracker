@@ -1,4 +1,3 @@
-# ===============================ate beautiful charts.===
 #  Expense Tracker by Yug
 #  A simple and friendly program to
 #  track your money using a CSV file.
@@ -231,4 +230,5 @@ def main_menu():
 # This is the official starting point of our Python script.
 # When you run the file, this is the first line of code that actually runs.
 if __name__ == "__main__":
+
     main_menu()

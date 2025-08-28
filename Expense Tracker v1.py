@@ -9,7 +9,7 @@ import os   # To check if files exist on your computer.
 import matplotlib.pyplot as plt # To cre
 from datetime import datetime # To get the current date.
 
-# --- Global Settings ---
+# --- Global ---
 # We'll store all our data in this file.
 DATA_FILE = 'transactions.csv'
 # These are the column titles for our spreadsheet.
@@ -19,7 +19,6 @@ def initialize_file():
     """
     This function checks if our data file exists.
     If it doesn't, it creates a new one with the right headers.
-    It's like preparing a new notebook before you start writing in it.
     """
     if not os.path.exists(DATA_FILE):
         print("Welcome! It looks like this is your first time.")
@@ -232,3 +231,4 @@ def main_menu():
 if __name__ == "__main__":
 
     main_menu()
+
